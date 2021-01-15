@@ -1,0 +1,19 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.todo-item button {
+    height: 40px ;
+    width: 40px;
+    margin: 20px;
+}
